@@ -51,3 +51,7 @@ Users can click "View More" to load more items at a time.
 
 Pagination continues until all content is shown.
 
+**`Responsive :`** Web App is responsive across various devices like mobile, tablet, laptop and desktop
+
+
+
