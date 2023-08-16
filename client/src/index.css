@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #04152d;
+    overflow-x: hidden;
+}
+

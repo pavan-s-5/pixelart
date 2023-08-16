@@ -1,0 +1,34 @@
+{
+    "footer" : [
+        {
+            "name": "Discover",
+            "Discoverli": [
+                "Editor's Choice",
+                "Curated Collections",
+                "Popular Images",
+                "Popular Videos",
+                "Popular Music",
+                "Gifs"
+            ]
+        },
+        {
+            "name": "Community",
+            "Communityli": ["Blog",
+                "Forum",
+                "Creators",
+                "Cameras"
+            ]
+        },
+        {
+            "name": "About",
+            "Aboutli": [
+                "About Us",
+                "FAQ",
+                "License Summary",
+                "Terms of service",
+                "Privacy Policy",
+                "Cookies Policy"
+            ]
+        }
+    ]
+}
