@@ -54,4 +54,9 @@ Pagination continues until all content is shown.
 **`Responsive :`** Web App is responsive across various devices like mobile, tablet, laptop and desktop
 
 
+![sss](https://github.com/pavan-s-5/pixelart/assets/131233727/4e8d4ac8-3a4a-41a5-8abc-00a1d12d476b)
+![pixel-5](https://github.com/pavan-s-5/pixelart/assets/131233727/7c59df32-e982-4dcd-8888-7c68ee56f2b7)
+![pixelart-4](https://github.com/pavan-s-5/pixelart/assets/131233727/39fc9b46-7bc3-4a48-9546-75e447b4bde1)
+![pixel-2](https://github.com/pavan-s-5/pixelart/assets/131233727/0493afa8-cd36-4110-bad6-feec460edd98)
+![pixelart-3](https://github.com/pavan-s-5/pixelart/assets/131233727/ddeff05c-68cd-4e24-8283-cc55e01abd39)
 
