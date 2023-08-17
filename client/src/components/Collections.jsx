@@ -37,7 +37,7 @@ const Collections = () => {
   },[])
 
   return (
-    <div className='flex justify-center w-full'>
+    <div className='flex justify-start w-full'>
         {
           isLoading ? (<DataFetchLoader/>) : (<>
             <div>
