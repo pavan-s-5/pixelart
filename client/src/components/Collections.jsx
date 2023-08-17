@@ -28,7 +28,7 @@ const Collections = () => {
     if(feeds && saved.length === 0){
       feeds?.map((feed) => {
         feed?.collections?.map((colc) => {
-          if(colc._id === user?.uid){
+          if(colc?._id === user?.uid){
             setSaved((prevArray) => [...prevArray, feed])
           }
         })

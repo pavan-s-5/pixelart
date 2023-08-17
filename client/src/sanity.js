@@ -7,7 +7,7 @@ const client = createClient({
   projectId: "fgv45ksw",
   dataset: "production",
   apiVersion: "2023-08-08",
-  // useCdn : true,
+  useCdn : true,
   token: import.meta.env.VITE_REACT_APP_SANITY_TOKEN,
 });
 

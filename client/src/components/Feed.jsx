@@ -26,7 +26,7 @@ const Feed = ({ data }) => {
   }
 
   useEffect(() => {
-    setSaved(!!(data?.collections?.filter((item) => item._id === user?.uid).length))
+    setSaved(!!(data?.collections?.filter((item) => item?._id === user?.uid).length))
   },[data, user])
 
   return (
