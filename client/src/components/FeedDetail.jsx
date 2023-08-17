@@ -13,7 +13,6 @@ import {Comment} from "./index";
 
 const FeedDetail = () => {
   const [feed, setFeed] = useState(null);
-  console.log(feed)
   const user = useSelector((state) => state.user);
   const feeds = useSelector((state) => state.feeds);
 

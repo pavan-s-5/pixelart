@@ -11,12 +11,12 @@ import { SET_FEED } from "../redux/actions/feedActions";
 const Comment = ({ feed, user, setFeed }) => {
   const [comment, setComment] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const [index, setIndex] = useState(5);
+  // const [index, setIndex] = useState(5);
 
   const dispatch = useDispatch();
 
-  const saveComment = async (e) => {
-    if (e.key === "Enter") {
+  const saveComment = async () => {
+
       if (comment) {
         setIsLoading(true);
         setComment('')
@@ -31,6 +31,12 @@ const Comment = ({ feed, user, setFeed }) => {
           });
         });
       }
+    
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      saveComment();
     }
   };
 
@@ -50,9 +56,10 @@ const Comment = ({ feed, user, setFeed }) => {
           className="rounded h-10 p-2 w-full border-none outline-none bg-transparent text-black"
           value={comment}
           onChange={(e) => setComment(e.target.value)}
-          onKeyDown={saveComment}
+          onKeyDown={handleKeyPress}
         />
-        <button className="border h-full p-2 text-blue-600 text-2xl border-none flex items-center hover:text-blue-700">
+        <button className="border h-full p-2 text-blue-600 text-2xl border-none flex items-center hover:text-blue-700"
+         onClick={saveComment} >
           <RiSendPlaneFill />
           <span className="text-sm font-semibold"> Post </span>
         </button>
@@ -67,7 +74,7 @@ const Comment = ({ feed, user, setFeed }) => {
           <div className="w-full">
             {feed?.comments ? (
               <div className="">
-                {feed?.comments?.slice(0, index).map((message) => (
+                {feed?.comments?.slice(0, 120).map((message) => (
                   <div
                     key={message._id}
                     className="flex w-full gap-2  p-2 items-center"
