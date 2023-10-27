@@ -25,6 +25,9 @@ const Mymedia = ({feeds}) => {
         filteredFeed?.length > 0 ? (<MasonaryLayout feeds={filteredFeed}/>) : (
           <p className='text-2xl text-gray-500 flex justify-center items-center gap-2 select-none'>
              <AiOutlineCompress/> You haven't uploaded any media yet!
+          
+          
+          
           </p>
         )
       }
